@@ -18,6 +18,15 @@ Then you download the `update-resolv-conf` file and paste it in the `/etc/openvp
 
     chmod +X update-resolv-conf
     
+Open the `.ovpn` file and and find the following lines and keep as below:
+
+     For no systemd Linux
+    up /etc/openvpn/update-resolv-conf
+    down /etc/openvpn/update-resolv-conf
+    
+     For systemd Linux
+    #up /etc/openvpn/update-systemd-resolved
+    #down /etc/openvpn/update-systemd-resolved
 
 ## Run OpenVpn
 
