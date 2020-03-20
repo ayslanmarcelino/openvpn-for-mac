@@ -41,9 +41,7 @@ If you have problems with the connection, follow:
 
 `Open Network Preferences -> Advanced -> DNS`
 
-In DNS Servers add:
-
-`8.8.8.8`
+In DNS Servers add Google DNS: `8.8.8.8`, or other DNS of your choice:
 
 ## Author
 
