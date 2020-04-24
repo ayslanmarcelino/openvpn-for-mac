@@ -43,6 +43,7 @@ If you have problems with the connection, follow:
 
 In DNS Servers add Google DNS (`8.8.8.8` or `8.8.4.4`), if it's not already there, or other DNS of your choice.
 
-## Author
+## Authors
 
-Ayslan Marcelino.
+- [Ayslan Marcelino](https://github.com/ayslanmarcelino)
+- [Anderson Fernandes](https://github.com/andersonfernandes)
