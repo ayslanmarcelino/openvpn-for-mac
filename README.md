@@ -27,8 +27,8 @@ For no systemd Linux
 
 For systemd Linux
 
-    #up /etc/openvpn/update-systemd-resolved
-    #down /etc/openvpn/update-systemd-resolved
+    up /etc/openvpn/update-systemd-resolved
+    down /etc/openvpn/update-systemd-resolved
 
 ## Run OpenVpn
 
