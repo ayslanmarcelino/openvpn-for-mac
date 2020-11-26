@@ -18,7 +18,7 @@ NMSRVRS=()
 SRCHS=()
 
 # Get adapter list and remove Bluetooth, USB and Thunderbolt adapters
-IFS=$'\n' read -d '' -ra adapters <<< $(networksetup -listallnetworkservices | grep -v denotes | grep -vwiE "(Bluetooth|USB|Thunderbolt)") || true
+IFS=$'\n' read -d '' -ra adapters <<< $(networksetup -listallnetworkservices | grep -v denotes | grep -vwiE "(Bluetooth|USB|Thunderbolt|MT65xx|Ethernet)") || true
 
 split_into_parts()
 {
